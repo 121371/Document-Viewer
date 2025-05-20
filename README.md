@@ -1,12 +1,46 @@
-# React + Vite
+# Document Previewer POC
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+The Document Previewer POC is a React-based application designed to preview various types of documents, including PDFs and images (e.g., PNG, JPEG). The project provides a unified and user-friendly interface for document viewing, complete with essential features like zoom, fullscreen mode, and download functionality.
 
-Currently, two official plugins are available:
+## Features
+**PDF Viewer:**
+Integrated with @react-pdf-viewer for seamless PDF rendering.
+Includes toolbar options for zooming, fullscreen, and downloading.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Image Viewer:**
+Supports common image formats such as PNG, JPEG, and GIF.
 
-## Expanding the ESLint configuration
+Provides zoom functionality with smooth transitions.
+Fullscreen mode for an immersive viewing experience.
+Unified Toolbar:
+Consistent toolbar for both PDFs and images.
+Features include:
+Zoom In/Out
+Fullscreen Toggle
+Download Button
+Responsive Design:
+Adapts to different screen sizes for a better user experience.
+Dark Mode Ready (optional for future enhancements).
+Technologies Used
+React: For building the user interface.
+@react-pdf-viewer: For rendering PDF documents.
+CSS Modules: For modular and reusable styling.
+Fullscreen API: For enabling fullscreen mode.
+How to Use
+**Clone the repository:**
+git clone https://github.com/your-username/document-previewer-poc.git
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Install dependencies:**
+yarn install
+
+**Start the development server:**
+yarn start
+
+Upload a document (PDF or image) to preview it.
+Future Enhancements
+Add support for additional file types (e.g., Word, Excel).
+Implement annotation and markup tools for PDFs.
+Add dark mode toggle for better accessibility.
+License
+This project is licensed under the MIT License. Feel free to use and modify it for your own purposes.
